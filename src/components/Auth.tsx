@@ -65,7 +65,7 @@ const Auth: React.FC = () => {
         <h2>Login</h2>
         <input type="text" placeholder="Username" value={formData.username} onChange={(e) => handleInputChange('username', e.target.value)} />
         <input type="password" placeholder="Password" value={formData.password} onChange={(e) => handleInputChange('password', e.target.value)} />
-        <button className="login-btn" onClick={() => handleUserAction('login')}>Login</button>
+        <button className="login-btn" onClick={() =>  handleUserAction('login')}>Login</button>
       </div>
     </div>
   );
